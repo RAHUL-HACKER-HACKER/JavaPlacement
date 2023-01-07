@@ -5,7 +5,7 @@ public class ArmstrongRange {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the Lower Range: ");
-        int l = sc.nextInt();
+        
         System.out.print("Enter the Upper Range: ");
         int u = sc.nextInt();
         for (int i = l; i<= u; i++){
