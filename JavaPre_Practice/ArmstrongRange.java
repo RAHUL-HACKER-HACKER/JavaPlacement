@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //Armstrong number in a given range
-public class ArmstrongRange {
+public class  {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the Lower Range: ");
