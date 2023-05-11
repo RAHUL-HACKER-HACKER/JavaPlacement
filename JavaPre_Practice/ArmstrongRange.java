@@ -18,7 +18,7 @@ public class ArmstrongRange {
                 a=a/10;
             }
             if (i==c)
-            System.out.print(c+", ");
+           
         }
     }
 }
