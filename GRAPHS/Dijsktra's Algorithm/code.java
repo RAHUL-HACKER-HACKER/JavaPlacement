@@ -1,9 +1,4 @@
-/*
-Implementing Dijsktra's Algorithm
-We maintain two sets, one set contains vertices included in shortest path tree, other set includes
-vertices not yet included in shortest path tree. At every step of the algorithm, we find a vertex
-which is in the other set (set of not yet included) and has a minimum distance from the source.
-*/
+
 class Solution
 {
     
@@ -12,7 +7,7 @@ class Solution
        int dist[] = new int[V];
        boolean set[] = new boolean[V];
        
-       
+       Arrays.fill(dist,Integer.MAX_VALUE);
        
        dist[src]=0;
        
