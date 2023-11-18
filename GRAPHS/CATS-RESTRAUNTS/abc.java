@@ -4,7 +4,7 @@ public class abc
     int res=0;
     void dfs(int par,int s,int count,ArrayList<Integer> adj[],int cats[],int m,boolean vis[])
     {
-        vis[s]=true;
+        
         if(cats[s]==1) count++;
         else count=0;
         if(count>m) return;
