@@ -12,7 +12,7 @@ class Solution
        int dist[] = new int[V];
        boolean set[] = new boolean[V];
        
-       Arrays.fill(dist,Integer.MAX_VALUE);
+       
        
        dist[src]=0;
        
