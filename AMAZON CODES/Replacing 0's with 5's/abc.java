@@ -1,6 +1,7 @@
 import java.util.*;
 class abc
 {
+    //java codes
     public static void main(String[] args) {
         int n;
         Scanner sc=new Scanner(System.in);
