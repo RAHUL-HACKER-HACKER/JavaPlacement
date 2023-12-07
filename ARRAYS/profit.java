@@ -2,7 +2,7 @@ import java.util.*;
 class profit
 {
     static void stockBuySell(int price[], int n) {
-        
+        String s="",c="";
         for(int i=1;i<n;i++)
         {
             if(price[i]>price[i-1])
