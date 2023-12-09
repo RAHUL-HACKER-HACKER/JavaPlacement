@@ -3,7 +3,8 @@ class water
 {
     static int trappingWater(int arr[], int n) { 
         
-        
+        int lmax[]=new int[n];
+        int rmax[]=new int[n];
         lmax[0]=arr[0];
         int r=0;
         for(int i=1;i<n;i++)
