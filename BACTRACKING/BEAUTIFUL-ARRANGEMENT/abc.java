@@ -1,7 +1,7 @@
 import java.util.*;
 class abc
 {
-    static int res=0;
+    
     static void backtrack(int i,int n,boolean[] vis)
     {
         if(i==n+1)
