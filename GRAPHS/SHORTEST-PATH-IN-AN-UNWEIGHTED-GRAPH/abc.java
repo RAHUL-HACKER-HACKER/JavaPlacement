@@ -3,7 +3,7 @@ class Graph
 {
     void shortestPath(ArrayList<ArrayList<Integer>> al,int s,int v,boolean[] visited)
     {
-        
+        Queue<Integer> q=new LinkedList<>();
         visited[s]=true;
         q.add(s);
         int dist[]=new int[v];
