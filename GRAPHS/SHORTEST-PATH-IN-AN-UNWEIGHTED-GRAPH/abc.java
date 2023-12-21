@@ -24,7 +24,7 @@ class Graph
         }
         for(int i:dist)
         {
-            
+            System.out.print(i+" ");
         }
     }
 }
