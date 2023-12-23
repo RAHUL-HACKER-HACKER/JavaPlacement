@@ -42,7 +42,7 @@ class abc
             {
                 temp.add(sc.nextInt());
             }
-            
+            al.add(temp);
         }
         boolean visited[]=new boolean[v];
         new Graph().shortestPath(al, 0, v, visited);
