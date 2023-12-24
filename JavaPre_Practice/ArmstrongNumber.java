@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //Armstrong number
-public class ArmstrongNumber {
+public class  {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number to check Armstrong: ");
