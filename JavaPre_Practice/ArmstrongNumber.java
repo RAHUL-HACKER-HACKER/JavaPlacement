@@ -11,7 +11,7 @@ public class ArmstrongNumber {
         int b,c=0;
         while (a!=0){
             b=a%10;
-            c+=(int) 
+            c+=(int) Math.pow(b,len);
             a=a/10;
         }
         if (number==c){
